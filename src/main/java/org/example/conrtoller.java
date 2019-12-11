@@ -17,7 +17,7 @@ public class conrtoller {
     E e;
     @GetMapping("/")
     public E test() {
-        e.setUsername("bbb");
+        e.setUsername("bbbb");
         e.setAge(10);
 
         return e;
